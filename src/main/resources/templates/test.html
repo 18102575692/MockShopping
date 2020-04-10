@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>抢购界面</title>
+</head>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript">
+    for (var i=0 ;i<5000;i++){
+        var params={
+            userId:1,
+            productId:1,
+            quantity:3
+        };
+        //异步
+        $.post("./purchase",params,function (result) {
+
+        })
+    }
+
+</script>
+<body>
+        <h1>抢购商品</h1>
+</body>
+</html>
